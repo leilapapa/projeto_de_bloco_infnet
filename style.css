@@ -3,11 +3,43 @@
     padding: 0;
     box-sizing: border-box;
   }
-nav {
-    border: solid 1px red;
+
+header {
+    height: 100vh;
+    width: 100vw;    
 }
 
-ul {
-    list-style-type: none;    
+body {
+    height: 100vh;
+    width: 100vw;
 }
- 
+
+#primeiro {        
+    border: dashed 10px aqua;  /* Isso é para fins de depuração, certo? */
+    height: 100vh;  /* Reduzido de 100vh para 50vh */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    align-items: center;  
+    width: auto;    
+    color: white;   
+    
+}
+
+
+#background-header {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+
+  }  
+
+  h1 {
+    position: absolute;
+    color: black;
+    font-size: 50px;
+  }
