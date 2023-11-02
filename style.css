@@ -16,10 +16,10 @@ header {
 body {
     height: 100vh;
     width: 100vw;
+    background-color: black ;
 }
 
-#primeiro {        
-    border: dashed 10px aqua;  /* Isso é para fins de depuração, certo? */
+#primeiro {            
     height: 100%;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ body {
     background-color: transparent;
   }  
 
-  h1 {
+  /* h1 {
     position: absolute;
     color: rgb(179, 85, 22);
     text-shadow: 1px 1px 2px black;
@@ -48,7 +48,7 @@ body {
     bottom: 0;
     font-size: 60px;
     padding: 60px;
-  }
+  } */
 
 .navegador {    
     position: absolute;
@@ -128,6 +128,48 @@ li {
     margin-left: 30px;
     text-shadow: 2px 2px 2px black;
 }
+
+
+.container1{    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 5px violet;
+  }
+
+/* #brasa {
+    height: 65%;    
+    width: 100%;
+    position: relative;    
+    top: 0;    
+    background-color: transparent;
+    border: solid 5px blue;
+} */
+
+.box_historia_1 {
+    color: white;
+    border: solid 5px blue;
+    width: 100px;
+    height: 100%;
+    font-size: 40px;
+    box-sizing: border-box;
+    display: flex;
+  }
+
+/* #historia2 {    
+    color: white;      
+    /* text-shadow: 1px 1px 2px black; */    
+    /* border: solid 5px red;    
+    height: 100%;
+    width: 300px;
+    font-size: 20px;    /
+    justify-content: space-between;
+    right: 0;
+    /* margin-right: 30%;
+    padding-top: 100px; */
+    
+
 
 #scrollTopButton {
     position: fixed;
